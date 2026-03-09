@@ -1,1 +1,2064 @@
-{}
+{
+    "CS1231S": {
+        "name": "Discrete Structures",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            "MA1301X",
+            "MA1301",
+            "06 MATHEMATICS",
+            "07 FURTHER MATHEMATICS",
+            "21 PURE MATHEMATICS",
+            "22 APPLIED MATHEMATICS"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "CS5421",
+            "CS5249",
+            "CS5469",
+            "CS4269",
+            "CS3236",
+            "CS5461",
+            "CS3234",
+            "CS5232",
+            "CS2251",
+            "CS3230",
+            "CS3231",
+            "CS3243",
+            "CS2309",
+            "CS2109S",
+            "CS4236",
+            "CS4261",
+            "CS2102",
+            "CS2040S",
+            "CS5430",
+            "CS4230",
+            "MA3219",
+            "MA2219",
+            "MA3205",
+            "MA2108S",
+            "MA2202",
+            "MA2214",
+            "MA2108",
+            "MA2101",
+            "MA2202S",
+            "MA2116T",
+            "MA2101S"
+        ],
+        "similarUnallowed": [
+            "CS1231",
+            "MA1100",
+            "MA1100T"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "22 APPLIED MATHEMATICS": {
+        "name": "Applied Mathematics",
+        "completed": false,
+        "sems": [],
+        "prereq": [],
+        "prereqCount": [
+            0
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3,
+        "available": false
+    },
+    "MA1301X": {
+        "name": "Introductory Mathematics",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2",
+            "Special Term I"
+        ],
+        "prereq": [
+            "O Level Additional Mathematics",
+            "H1 Mathematics"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "CS1231S",
+            "CS4240",
+            "CS1231",
+            "MA1100T",
+            "MA1311",
+            "MA2301",
+            "MA1100",
+            "MA1312",
+            "LSM4231",
+            "QF1100",
+            "MA1505",
+            "MA1511",
+            "MA1512",
+            "MA1513",
+            "ST1131",
+            "MA2001",
+            "MA1522",
+            "MA1508E",
+            "DSA1101",
+            "DSE1101",
+            "MA1521",
+            "PC2174A",
+            "MA2002",
+            "PC1101"
+        ],
+        "similarUnallowed": [
+            [
+                "06 MATHEMATICS",
+                "07 FURTHER MATHEMATICS"
+            ],
+            "MA*"
+        ],
+        "similarUnallowedCount": [
+            "*",
+            1
+        ],
+        "interest": 3,
+        "available": true
+    },
+    "21 PURE MATHEMATICS": {
+        "name": "Pure Mathematics (A-Level)",
+        "completed": true,
+        "sems": -1,
+        "prereq": [],
+        "prereqCount": [
+            0
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": -1
+    },
+    "CS4230": {
+        "name": "Foundations Of Modern Cryptography",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "CS1231",
+                "CS1231S",
+                "MA1100",
+                "MA1100T"
+            ],
+            "CS3230",
+            [
+                "ST2334",
+                "ST2131",
+                "MA2216",
+                "MA2116",
+                "MA2116T"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [
+            "CS3281"
+        ],
+        "similarUnallowed": [
+            "CS5430"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 4
+    },
+    "MA2301": {
+        "name": "Basic Applied Mathematics",
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            "06 MATHEMATICS",
+            "07 FURTHER MATHEMATICS",
+            "MA1301",
+            "MA1301X"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "QF3103",
+            "QF2104",
+            "QF3101"
+        ],
+        "similarUnallowed": [
+            [
+                "MA2116",
+                "MA2216",
+                "ST2131",
+                "ST2334"
+            ],
+            [
+                "MA1508E",
+                "MA1513",
+                "MA2001"
+            ],
+            [
+                "MA1312",
+                "MA1505",
+                "MA1511",
+                "MA1521",
+                "MA2002"
+            ]
+        ],
+        "similarUnallowedCount": [
+            "*",
+            1,
+            1,
+            1
+        ],
+        "interest": 3
+    },
+    "MA1521": {
+        "name": "Calculus For Computing",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            "06 MATHEMATICS",
+            "07 FURTHER MATHEMATICS",
+            "MA1301",
+            "MA1301X"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "DSC3214",
+            "BT2103",
+            "CS5647",
+            "BT3104",
+            "CS3242",
+            "CS4347",
+            "CS5241",
+            "CS5249",
+            "CS5478",
+            "CS5284",
+            "IS4242",
+            "CS4278",
+            "CS5240",
+            "CS5332",
+            "CS4248",
+            "CS2251",
+            "CS3218",
+            "CS3244",
+            "CS2109S",
+            "CS4243",
+            "BT2101",
+            "IS2109",
+            "IT3011",
+            "CS5343",
+            "MA2219",
+            "MA2312",
+            "PC3238",
+            "MA2108S",
+            "PC3236",
+            "PC2031",
+            "PC2032",
+            "PC3274A",
+            "QF4103",
+            "MA2311",
+            "MA3220",
+            "ST2131",
+            "MA2104",
+            "MA2116",
+            "QF3101",
+            "MA2108",
+            "DSA2102",
+            "MA2213",
+            "DSA3361",
+            "ST2334",
+            "MA4275"
+        ],
+        "similarUnallowed": [
+            "MA1312",
+            "MA1505",
+            "MA1511",
+            "MA2002",
+            "YSC1216"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 4
+    },
+    "CS3231": {
+        "name": "Theory Of Computation",
+        "completed": false,
+        "sems": [
+            "Semester 1"
+        ],
+        "prereq": [
+            [
+                "CS1231",
+                "CS1231S",
+                "MA1100T",
+                "MA1100"
+            ],
+            [
+                "CS2040",
+                "CS2040S",
+                "CS2040C",
+                "CS2040DE",
+                "CS2040HS"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [
+            "CS5230",
+            "CS5236",
+            "CS3282",
+            "CS3281"
+        ],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "CS5284": {
+        "name": "Graph Machine Learning",
+        "completed": false,
+        "sems": [
+            "Semester 1"
+        ],
+        "prereq": [
+            [
+                "MA1101R",
+                "MA1311",
+                "MA1506",
+                "MA1508E",
+                "MA2001",
+                "MA1522"
+            ],
+            [
+                "MA1102R",
+                "MA1505",
+                "MA1521",
+                "MA2002",
+                [
+                    "MA1511",
+                    "MA1512"
+                ]
+            ],
+            [
+                "CS2040",
+                "CS2040C",
+                "CS2040S"
+            ],
+            [
+                "CS3263",
+                "CS3264",
+                "CS3244"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            [
+                1,
+                2
+            ],
+            1,
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "DSA2102": {
+        "name": "Essential Data Analytics Tools: Numerical Computation",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "MA1508E",
+                "MA1513",
+                "MA1522",
+                "MA2001"
+            ],
+            [
+                "MA1312",
+                "MA1505",
+                "MA1511",
+                "MA1521",
+                "MA2002"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [
+            "MA3227",
+            "MA4274",
+            "MA4255",
+            "DSE4212",
+            "QF4212",
+            "MA4230",
+            "MA4270",
+            "QF4211",
+            "DSE4211",
+            "MA4268",
+            "DSA4299C",
+            "DSA4299",
+            "DSA4199",
+            "DSA4288",
+            "DSA4288M",
+            "DSA4288S"
+        ],
+        "similarUnallowed": [
+            "MA2213"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 3
+    },
+    "IT3011": {
+        "name": "Introduction To Machine Learning and Applications",
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            [
+                "CS1010",
+                "CS1010X",
+                "CS1010S",
+                "CS1010E",
+                "CS1010J",
+                "CS1101S",
+                "CS1010A",
+                "UTC2851"
+            ],
+            [
+                "EE2012",
+                "EE2012A",
+                "MA2216",
+                "MA2116",
+                "MA2116T",
+                "ST2334"
+            ],
+            [
+                "MA2001",
+                "MA1101R",
+                "MA1522",
+                "MA1508E",
+                "MA1513",
+                "MA1311"
+            ],
+            [
+                [
+                    "MA1511",
+                    "MA1512"
+                ],
+                "MA1102R",
+                "MA2002",
+                "MA1505",
+                "MA1507",
+                "MA1521"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1,
+            1,
+            [
+                1,
+                2
+            ]
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "BT4240",
+            "CS2109S",
+            "CS3244",
+            "CS3264",
+            "DMX1401AI",
+            "EE2211"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "CS2040DE": {
+        "name": "Data Structures and Algorithms",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            "CS1010",
+            "CS1010E",
+            "CS1010X",
+            "CS1101S",
+            "CS1010S",
+            "CS1010J",
+            "CS1010A"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "CS4269",
+            "CS2113T",
+            "CS3218",
+            "CS3225",
+            "CS3230",
+            "CS3231",
+            "CS3233",
+            "CS3223",
+            "CS3241",
+            "CS3243",
+            "CS3245",
+            "CS3244",
+            "CS2309",
+            "CS2103",
+            "CS2105",
+            "CS2108",
+            "CS2109S",
+            "CS2113",
+            "CS2220",
+            "CS4215",
+            "CS4236",
+            "CS4243",
+            "CS4261",
+            "CS4277",
+            "CS4330",
+            "BT4015",
+            "CP3107",
+            "CS2102",
+            "CS2103T",
+            "CS3264",
+            "CS3263"
+        ],
+        "similarUnallowed": [
+            "CS2040",
+            "CS2040C",
+            "CS2040S"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "MA1507": {
+        "name": "Advanced Calculus",
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            "GCE A Level",
+            "H2 Mathematics",
+            "H2 Further Mathematics"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "EC3314",
+            "CS3244",
+            "CS4243",
+            "CS4248",
+            "CS5240",
+            "CS3242",
+            "CS4347",
+            "CS3218",
+            "CS5332",
+            "IT3011",
+            "MA2108",
+            "MA2108S",
+            "MA2213",
+            "MA2219",
+            "MA2501",
+            "MA3111",
+            "MA3220",
+            "MA3227",
+            "MA3229",
+            "MA3236",
+            "QF3101",
+            "MA2216",
+            "MA4269",
+            "MA4271",
+            "MA4269A",
+            "MA3211",
+            "MA3211S",
+            "ST2334",
+            "ST2131"
+        ],
+        "similarUnallowed": [
+            "MA1102R",
+            "MA1505",
+            "MA1511",
+            "MA1512",
+            "MA1521",
+            "MA2104",
+            "MA2311",
+            "YSC2252"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "CS3263": {
+        "name": "Foundations Of Artificial Intelligence",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            "CS2109S",
+            [
+                "CS2040",
+                "CS2040S",
+                "CS2040C",
+                "CS2040DE",
+                "CS2040HS"
+            ],
+            [
+                "MA2001",
+                "MA1522",
+                "MA1513",
+                "MA1508E"
+            ],
+            [
+                "EE2012A",
+                "EE2012",
+                "ST2131",
+                "MA2116",
+                "MA2116T",
+                "ST2334",
+                "MA2216"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1,
+            1
+        ],
+        "next": [
+            "CS4244",
+            "CS5478",
+            "CS6208",
+            "CS5284",
+            "CS3282",
+            "CS3281",
+            "CS4278",
+            "CS4246",
+            "CS5340",
+            "CS5338",
+            "CS5446"
+        ],
+        "similarUnallowed": [
+            "CS3243"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 3
+    },
+    "CS3241": {
+        "name": "Computer Graphics",
+        "completed": false,
+        "sems": [
+            "Semester 1"
+        ],
+        "prereq": [
+            [
+                "CS2030S",
+                "CS2030",
+                "CS2030DE",
+                "CS2113"
+            ],
+            [
+                "CS2040",
+                "YSC2229",
+                "CS2040S",
+                "CS2040C",
+                "CS2040DE",
+                "CS2040HS"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [
+            "CS3242",
+            "CS3247",
+            "CS4247",
+            "CS4345",
+            "CS4351",
+            "CS3282",
+            "CS3281",
+            "CS5343"
+        ],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 4
+    },
+    "BT2101": {
+        "name": "Econometrics Modelling For Business Analytics",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "MA1521",
+                "MA1102R",
+                "MA2002",
+                "MA1505"
+            ],
+            [
+                "BT1101",
+                "EC2303",
+                "ST1131",
+                "DSA1101",
+                "DSE1101"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [
+            "DSC3224",
+            "DSC4213",
+            "BT3104",
+            "BT4103",
+            "BT4240",
+            "IS4303",
+            "BT3102",
+            "BT4241",
+            "BT4211",
+            "BT4103",
+            "BT4105",
+            "BT4212",
+            "BT4222",
+            "BT4221",
+            "BT4016"
+        ],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "MA1511": {
+        "name": "Engineering Calculus",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            "06 MATHEMATICS",
+            "07 FURTHER MATHEMATICS",
+            "MA1301",
+            "MA1301X"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "CN2122",
+            "CN3421",
+            "CN2122A",
+            "EE2012A",
+            "CN2104",
+            "CN2106",
+            "CN3121",
+            "CN3421A",
+            "ME4291",
+            "EE2012",
+            "EE2211",
+            "CS5647",
+            "CS3242",
+            "CS4347",
+            "CS5241",
+            "CS5249",
+            "CS5478",
+            "IS4242",
+            "CS4278",
+            "CS5240",
+            "CS5332",
+            "CS4248",
+            "CS2251",
+            "CS3218",
+            "CS3244",
+            "CS2109S",
+            "CS4243",
+            "IT3011",
+            "CS5343",
+            "MA3229",
+            "PC2020",
+            "MA2219",
+            "MA3227",
+            "MA3236",
+            "MA3264",
+            "MA4274",
+            "PC3238",
+            "MA2108S",
+            "PC3441",
+            "PC3236",
+            "PC2031",
+            "PC2032",
+            "PC3274A",
+            "MA3220",
+            "ST2131",
+            "MA3270",
+            "MA2104",
+            "MA2116",
+            "QF3101",
+            "MA2108",
+            "DSA2102",
+            "MA2213",
+            "DSA3361",
+            "ST2334",
+            "DSA3102",
+            "MA4275"
+        ],
+        "similarUnallowed": [
+            "MA1312",
+            "MA1505",
+            "MA1521",
+            "MA2002",
+            "MA2311",
+            "PC2134",
+            "PC2174",
+            "PC2174A",
+            "YSC1216"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "PC3238": {
+        "name": "Fluid Dynamics",
+        "completed": false,
+        "sems": [
+            "Semester 1"
+        ],
+        "prereq": [
+            "PC2031",
+            [
+                "PC2174A",
+                "MA1505",
+                "MA1511",
+                "MA1512",
+                "MA1521",
+                "MA2104"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1
+        ],
+        "next": [
+            "PC3240",
+            "PC5267"
+        ],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "MA3219": {
+        "name": "Computability Theory",
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            "MA1100",
+            "MA1100S",
+            "CS1231",
+            "CS1231S",
+            "CS1231X",
+            "CS1231Y"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "MA4207"
+        ],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "MA3220": {
+        "name": "Ordinary Differential Equations",
+        "completed": false,
+        "sems": [
+            "Semester 1"
+        ],
+        "prereq": [
+            [
+                "MA1505",
+                "MA1511",
+                "MA1521",
+                "MA2104",
+                "MA2311"
+            ],
+            [
+                "MA1311",
+                "MA2001",
+                "MA1513",
+                "MA1522",
+                "MA1508E"
+            ],
+            [
+                "MA2108",
+                "MA2108S"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1,
+            1
+        ],
+        "next": [
+            "MA4252",
+            "MA4255",
+            "MA4233",
+            "MA4221"
+        ],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "MA3236": {
+        "name": "Non-Linear Programming",
+        "completed": false,
+        "sems": [
+            "Semester 1"
+        ],
+        "prereq": [
+            "MA1505",
+            "MA1511",
+            "MA2104",
+            "MA2311"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "MA4272",
+            "MA4264",
+            "MA5243",
+            "MA4260"
+        ],
+        "similarUnallowed": [
+            "DBA3701",
+            "DSA3102",
+            "DSN3701"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "BT4211": {
+        "name": "Data-Driven Marketing",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "BT2101",
+                "BT2102"
+            ],
+            [
+                "DBA3803",
+                "IT3010"
+            ]
+        ],
+        "prereqCount": [
+            1,
+            "*",
+            "*"
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "CS5232": {
+        "name": "Formal Specificaion And Design Techniques",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "CS1231",
+                "CS1231S",
+                "MA1100",
+                "MA1100T"
+            ],
+            [
+                "CS2103",
+                "CS2103T",
+                "CS2113",
+                "CS2113T"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "MA1102R": {
+        "name": "Calculus",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            "H2 Mathematics",
+            "H2 Further Mathematics",
+            "MA1301",
+            "MA1301FC",
+            "MA1301X"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "EC3314",
+            "DSC3214",
+            "CS3244",
+            "CS4243",
+            "CS5240",
+            "CS5241",
+            "CS5249",
+            "CS3242",
+            "CS4347",
+            "CS5343",
+            "CS3218",
+            "CS5332",
+            "IT3011",
+            "CS4278",
+            "CS5478",
+            "BT2101",
+            "BT4240",
+            "CM3201",
+            "MA1104",
+            "MA1506",
+            "MA2108",
+            "MA2108S",
+            "MA2213",
+            "MA2219",
+            "MA2311",
+            "MA2312",
+            "MA2216",
+            "DSA2102",
+            "MA2104",
+            "PC2230",
+            "PC2134",
+            "PC2132",
+            "PC2131",
+            "PC2130",
+            "ST2334",
+            "ST2131"
+        ],
+        "similarUnallowed": [
+            "EE1461",
+            "EG1401",
+            "EG1402",
+            "MA1102",
+            "MA1312",
+            "MA1505",
+            "MA1505C",
+            "MA1507",
+            "MA1521",
+            "YSC1216"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "CS5338": {
+        "name": "Principles Of Planning And Desicion Making",
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            [
+                "MA2116",
+                "MA2116T",
+                "ST2131",
+                "ST2334",
+                "MA2216"
+            ],
+            [
+                "CS3243",
+                "CS3263"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "CS4246"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 3
+    },
+    "CS4277": {
+        "name": "3D Computer Vision",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "MA2001",
+                "MA1522",
+                "MA1101R",
+                "MA1311",
+                "MA1506",
+                "MA1508E"
+            ],
+            [
+                "CS2040",
+                "CS2040S",
+                "CS2040C",
+                "CS2040DE",
+                "CS2040HS"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "CS5477"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 4
+    },
+    "MA2101S": {
+        "name": "Linear Algebra II (S)",
+        "completed": false,
+        "sems": [
+            "Semester 1"
+        ],
+        "prereq": [
+            [
+                "CS1231",
+                "CS1231S",
+                "MA1100",
+                "MA1100T"
+            ],
+            [
+                "MA1508E",
+                "MA1513",
+                "MA1522",
+                "MA2001"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [
+            "MA5265",
+            "MA3210",
+            "MA3218",
+            "MA3291",
+            "MA4261",
+            "MA5211",
+            "MA3201",
+            "MA4230",
+            "MA4235",
+            "MA4229",
+            "MA3233"
+        ],
+        "similarUnallowed": [
+            "MA2101"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 4
+    },
+    "DSE4211": {
+        "name": "Digital Currencies",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            "QF2104",
+            "DSA2102"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "DSE4201"
+        ],
+        "similarUnallowed": [
+            "QF4211"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 5
+    },
+    "MA2101": {
+        "name": "Linear Algebra II",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "CS1231",
+                "CS1231S",
+                "MA1100",
+                "MA1100T"
+            ],
+            [
+                "MA1508E",
+                "MA1513",
+                "MA1522",
+                "MA2001"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [
+            "MA5265",
+            "MA3210",
+            "MA3218",
+            "MA3291",
+            "MA4261",
+            "MA3201",
+            "MA4230",
+            "MA4235",
+            "MA4229",
+            "MA3233"
+        ],
+        "similarUnallowed": [
+            "MA2101S"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 3
+    },
+    "IS4303": {
+        "name": "IT-Mediated Financial Solutions and Platforms",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            "IS1128",
+            "IS2218",
+            "IS2238",
+            "BT2101"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "CS2103T": {
+        "name": "Software Engineering",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "CS2030",
+                "CS2030S",
+                "CS2030DE"
+            ],
+            [
+                "CS2040",
+                "CS2040S",
+                "CS2040C",
+                "CS2040DE",
+                "CS2040HS"
+            ],
+            "EP ENGLISH LANGUAGE PROFICIENCY TEST"
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [
+            "CS5272",
+            "BT3102",
+            "CS4211",
+            "CS3282",
+            "CS3281",
+            "CS3249",
+            "CS3219",
+            "CS3217",
+            "CS3216",
+            "CS3203",
+            "CS3202",
+            "CS3201",
+            "IS4302",
+            "CP3101A",
+            "CP3880",
+            "CS5246",
+            "CS5439",
+            "CS4239",
+            "CS5232",
+            "CS3213",
+            "CG3002"
+        ],
+        "similarUnallowed": [
+            [
+                "CS2103",
+                "CS2103DE",
+                "CS2113",
+                "CS2113T"
+            ],
+            [
+                "CG1413",
+                "EG1413",
+                "ES1601",
+                "ES2007D",
+                "ES2007S",
+                "ES2002",
+                "IS2101"
+            ]
+        ],
+        "similarUnallowedCount": [
+            "*",
+            1,
+            1
+        ],
+        "interest": 3
+    },
+    "IS4242": {
+        "name": "Intelligent Systems and Techniques",
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            [
+                "MA1312",
+                "MA1521",
+                "MA2002",
+                "MA1505",
+                [
+                    "MA1511",
+                    "MA1512"
+                ]
+            ],
+            [
+                "ST2334",
+                "MA2216",
+                "MA2116",
+                "MA2116T",
+                "ST2131",
+                "ST2132"
+            ],
+            [
+                "IS3106",
+                "BT3103"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            [
+                1,
+                2
+            ],
+            1,
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "PC2032": {
+        "name": "Classical Mechanics I",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            "PC1101",
+            [
+                "PC2174A",
+                "MA1505",
+                "MA1511",
+                "MA1512",
+                "MA1521",
+                "MA2104"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1
+        ],
+        "next": [
+            "PC3261",
+            "PC3246",
+            "PC3413",
+            "PC3412",
+            "PC3288A"
+        ],
+        "similarUnallowed": [
+            "PC2132",
+            "PC2412"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 4
+    },
+    "ST2131": {
+        "name": "Probability",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            "MA1312",
+            "MA1505",
+            "MA1511",
+            "MA1521",
+            "MA2002"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "IE4211",
+            "EE3801",
+            "EE4802",
+            "IE4213",
+            "EE5907",
+            "EC4307",
+            "EC4305",
+            "EC4354",
+            "EC4371",
+            "EC4333",
+            "EC4352",
+            "EC4362",
+            "EC4880",
+            "EC4361",
+            "EC4501",
+            "EC4306",
+            "EC4308",
+            "EC4351",
+            "EC4383",
+            "EC4394",
+            "EC4324",
+            "EC4312",
+            "EC4302",
+            "EC4332",
+            "EC4301",
+            "EC4304",
+            "DSC3223",
+            "DSC3215",
+            "DSC3216",
+            "CS5233",
+            "CS5239",
+            "CS5478",
+            "CS6211",
+            "CS6244",
+            "CS5228",
+            "IS4242",
+            "IS4240",
+            "CS4278",
+            "CS4268",
+            "CS4257",
+            "CS3236",
+            "CS4246",
+            "CS4222",
+            "CS5340",
+            "CS5240",
+            "CS5338",
+            "CS5422",
+            "CS5446",
+            "CS5461",
+            "CS5562",
+            "CS5275",
+            "CS5246",
+            "CS5332",
+            "CS4248",
+            "CS3268",
+            "CS2251",
+            "CS3244",
+            "CS4243",
+            "CS4261",
+            "BT4015",
+            "CS3264",
+            "CS3263",
+            "BT3017",
+            "CS4226",
+            "CS5430",
+            "CS4230",
+            "MA3269",
+            "MA3227",
+            "MA3259",
+            "MA4261",
+            "ST3234",
+            "MA4264",
+            "QF3103",
+            "MA5260",
+            "DSE4212",
+            "QF4212",
+            "MA4270",
+            "QF2104",
+            "MA3270",
+            "DSA2101",
+            "MA4260",
+            "DSA4299C",
+            "DSA4299",
+            "DSA4199",
+            "DSA4288",
+            "DSA4288M",
+            "DSA4288S",
+            "ST4288",
+            "DSA3361",
+            "ST3131",
+            "MA3238S",
+            "ST3236",
+            "ST3239",
+            "ST2137",
+            "ST3244",
+            "ST2132",
+            "ST3247",
+            "MA3238",
+            "ST3235",
+            "ST3243",
+            "ST3245",
+            "ST3247"
+        ],
+        "similarUnallowed": [
+            "CE2407",
+            "EC2303",
+            "MA2116",
+            "MA2116T",
+            "MA2301",
+            "ST2334",
+            "YSC2243"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 4
+    },
+    "MA3211": {
+        "name": "Complex Analysis I",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "MA2104",
+                "MA2311"
+            ],
+            [
+                "MA2108",
+                "MA2108S"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [
+            "MA4263"
+        ],
+        "similarUnallowed": [
+            "MA3211S"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 3
+    },
+    "MA1508E": {
+        "name": "Linear Algebra For Engineering",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "06 MATHEMATICS",
+                "07 FURTHER MATHEMATICS"
+            ],
+            [
+                "MA1301",
+                "MA1301X"
+            ]
+        ],
+        "prereqCount": [
+            1,
+            1,
+            1
+        ],
+        "next": [
+            "EE4212",
+            "ME3142",
+            "EE2211",
+            "RB2202",
+            "EE4115",
+            "CS5647",
+            "BT4240",
+            "CS3242",
+            "CS4234",
+            "CS4235",
+            "CS4347",
+            "CS5241",
+            "CS5249",
+            "CS5477",
+            "CS5478",
+            "CS6244",
+            "CS5284",
+            "CS4278",
+            "CS4268",
+            "CS5240",
+            "CS5461",
+            "CS5275",
+            "CS5246",
+            "CS5332",
+            "CS2251",
+            "CS3218",
+            "CS3244",
+            "CS4243",
+            "CS4261",
+            "CS4277",
+            "CS3264",
+            "CS3263",
+            "IT3011",
+            "CS5343",
+            "MA3229",
+            "MA2219",
+            "MA3252",
+            "PC3236",
+            "PC3274A",
+            "MA3220",
+            "QF2104",
+            "MA2214",
+            "MA3270",
+            "DSA2101",
+            "DSA4212",
+            "PC2451",
+            "MA2101",
+            "DSA3361",
+            "ST3236",
+            "DSA3102",
+            "MA2101S",
+            "PC2130",
+            "MA3238"
+        ],
+        "similarUnallowed": [
+            "MA1311",
+            "MA1513",
+            "MA1522",
+            "MA2001",
+            "YSC2232"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "EC4305": {
+        "name": "Applied Econometrics",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "EC*",
+                "ST3131",
+                "ST2131"
+            ],
+            [
+                [
+                    "EC*"
+                ],
+                [
+                    "EC3303",
+                    "ST3131"
+                ]
+            ]
+        ],
+        "prereqCount": [
+            1,
+            7,
+            [
+                "*",
+                7,
+                1
+            ]
+        ],
+        "next": [
+            "EC4362HM",
+            "EC4362",
+            "DSE4231"
+        ],
+        "similarUnallowed": [
+            "CS4305HM"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 3
+    },
+    "PC3412": {
+        "name": "How Stars Work",
+        "completed": false,
+        "sems": [
+            "Semester 1"
+        ],
+        "prereq": [
+            "PC2412",
+            "PC2032"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "PC3246"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 4
+    },
+    "CN2122A": {
+        "name": "Fluid Mechanics",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            "MA1511",
+            "MA1512"
+        ],
+        "prereqCount": [
+            "*"
+        ],
+        "next": [
+            "CN3101",
+            "CN3101A",
+            "CN3135",
+            "CN4122",
+            "CN5172"
+        ],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "PC3246": {
+        "name": "Astrophysics I",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            "PC2130",
+            "PC2132",
+            "PC2032"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "PC4232",
+            "PC4249"
+        ],
+        "similarUnallowed": [
+            "PC3412"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 4
+    },
+    "CM3201": {
+        "name": "Principles of Chemical Processes",
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            [
+                "CM1131",
+                "CM2101"
+            ],
+            [
+                "MA1421",
+                "MA1102R"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            "*",
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "CM1161",
+            "CM2161",
+            "CN1111"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 4
+    },
+    "DSC3223": {
+        "name": "Operations Strategy",
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            "DSC1007",
+            "DSC1007X",
+            "ST1131",
+            "ST1232",
+            "MA2216",
+            "ST2131",
+            "ST2334",
+            "EE2003",
+            "ME2491"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "MA1311": {
+        "name": "Matrix Algebra",
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            "06 MATHEMATICS",
+            "07 FURTHER MATHEMATICS",
+            "21 PURE MATHEMATICS",
+            "22 APPLIED MATHEMATICS",
+            "99 0-LEVEL ADDITONAL MATHEMATICS",
+            "MA1301",
+            "MA1301FC",
+            "MA1301X"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "DSC3214",
+            "CS5647",
+            "BT4240",
+            "CS3242",
+            "CS4234",
+            "CS4235",
+            "CS4347",
+            "CS5241",
+            "CS5249",
+            "CS5477",
+            "CS5478",
+            "CS6244",
+            "CS5284",
+            "CS4278",
+            "CS4268",
+            "CS5240",
+            "CS5461",
+            "CS5275",
+            "CS5246",
+            "CS5332",
+            "CS3218",
+            "CS3244",
+            "CS4243",
+            "CS4261",
+            "CS4277",
+            "CS3264",
+            "BT3017",
+            "IS2109",
+            "IT3011",
+            "CS5343",
+            "MA2312",
+            "MA3252",
+            "MA3220",
+            "MA2214",
+            "DSA2101",
+            "DSA3361"
+        ],
+        "similarUnallowed": [
+            "MA1101R",
+            "MA1506",
+            "MA1508"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "DSE4231": {
+        "name": "Topics In Data Science And The Digital Economy",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "EC*"
+            ],
+            "EC3101",
+            "EC3102",
+            "EC3304",
+            "EC4305",
+            "DSE3101"
+        ],
+        "prereqCount": [
+            "*",
+            7
+        ],
+        "next": [
+            "DSE4201"
+        ],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "ME3142": {
+        "name": "Feedback Control Systems",
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            "MA1512",
+            [
+                "MA1513",
+                "MA1508E"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1
+        ],
+        "next": [
+            "EE4315",
+            "EE4308",
+            "ME4245",
+            "EE4705",
+            "EE4115",
+            "RB4301"
+        ],
+        "similarUnallowed": [
+            "ME2142",
+            "TME2142",
+            "EE3331C"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 3
+    }
+}
