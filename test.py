@@ -1,12 +1,3 @@
-def flatten(l):
-    last = []
-    for x in l:
-        if type(x) is list:
-            last += flatten(x)
-        else:
-            last += [x]
-    
-    return last
+import json
 
-i = flatten(["h","e",["l","l",[["0"]]]])
-""
+it = open("item.jso")

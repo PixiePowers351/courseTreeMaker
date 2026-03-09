@@ -58,7 +58,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "22 APPLIED MATHEMATICS": {
         "name": "Applied Mathematics",
@@ -74,7 +75,8 @@
             0
         ],
         "interest": 3,
-        "available": false
+        "available": false,
+        "units": -1
     },
     "MA1301X": {
         "name": "Introductory Mathematics",
@@ -129,12 +131,13 @@
             1
         ],
         "interest": 3,
-        "available": true
+        "available": true,
+        "units": 4
     },
     "21 PURE MATHEMATICS": {
         "name": "Pure Mathematics (A-Level)",
         "completed": true,
-        "sems": -1,
+        "sems": [],
         "prereq": [],
         "prereqCount": [
             0
@@ -144,7 +147,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": -1
+        "interest": -1,
+        "units": -1
     },
     "CS4230": {
         "name": "Foundations Of Modern Cryptography",
@@ -182,7 +186,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 4
+        "interest": 4,
+        "units": 4
     },
     "MA2301": {
         "name": "Basic Applied Mathematics",
@@ -228,7 +233,8 @@
             1,
             1
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "MA1521": {
         "name": "Calculus For Computing",
@@ -303,7 +309,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 4
+        "interest": 4,
+        "units": 4
     },
     "CS3231": {
         "name": "Theory Of Computation",
@@ -341,7 +348,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "CS5284": {
         "name": "Graph Machine Learning",
@@ -394,7 +402,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "DSA2102": {
         "name": "Essential Data Analytics Tools: Numerical Computation",
@@ -447,7 +456,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "IT3011": {
         "name": "Introduction To Machine Learning and Applications",
@@ -514,7 +524,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "CS2040DE": {
         "name": "Data Structures and Algorithms",
@@ -576,7 +587,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "MA1507": {
         "name": "Advanced Calculus",
@@ -634,7 +646,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "CS3263": {
         "name": "Foundations Of Artificial Intelligence",
@@ -693,7 +706,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "CS3241": {
         "name": "Computer Graphics",
@@ -736,7 +750,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 4
+        "interest": 4,
+        "units": 4
     },
     "BT2101": {
         "name": "Econometrics Modelling For Business Analytics",
@@ -786,7 +801,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "MA1511": {
         "name": "Engineering Calculus",
@@ -869,14 +885,14 @@
             "MA2002",
             "MA2311",
             "PC2134",
-            "PC2174",
             "PC2174A",
             "YSC1216"
         ],
         "similarUnallowedCount": [
             1
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 2
     },
     "PC3238": {
         "name": "Fluid Dynamics",
@@ -907,7 +923,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "MA3219": {
         "name": "Computability Theory",
@@ -931,7 +948,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "MA3220": {
         "name": "Ordinary Differential Equations",
@@ -975,7 +993,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "MA3236": {
         "name": "Non-Linear Programming",
@@ -1006,7 +1025,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "BT4211": {
         "name": "Data-Driven Marketing",
@@ -1034,7 +1054,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "CS5232": {
         "name": "Formal Specificaion And Design Techniques",
@@ -1066,15 +1087,13 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "MA1102R": {
         "name": "Calculus",
         "completed": false,
-        "sems": [
-            "Semester 1",
-            "Semester 2"
-        ],
+        "sems": [],
         "prereq": [
             "H2 Mathematics",
             "H2 Further Mathematics",
@@ -1130,7 +1149,6 @@
             "MA1102",
             "MA1312",
             "MA1505",
-            "MA1505C",
             "MA1507",
             "MA1521",
             "YSC1216"
@@ -1138,7 +1156,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "CS5338": {
         "name": "Principles Of Planning And Desicion Making",
@@ -1169,7 +1188,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "CS4277": {
         "name": "3D Computer Vision",
@@ -1206,7 +1226,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 4
+        "interest": 4,
+        "units": 4
     },
     "MA2101S": {
         "name": "Linear Algebra II (S)",
@@ -1252,7 +1273,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 4
+        "interest": 4,
+        "units": 5
     },
     "DSE4211": {
         "name": "Digital Currencies",
@@ -1276,7 +1298,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 5
+        "interest": 5,
+        "units": 4
     },
     "MA2101": {
         "name": "Linear Algebra II",
@@ -1322,7 +1345,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "IS4303": {
         "name": "IT-Mediated Financial Solutions and Platforms",
@@ -1344,7 +1368,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "CS2103T": {
         "name": "Software Engineering",
@@ -1418,7 +1443,8 @@
             1,
             1
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "IS4242": {
         "name": "Intelligent Systems and Techniques",
@@ -1462,7 +1488,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "PC2032": {
         "name": "Classical Mechanics I",
@@ -1500,7 +1527,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 4
+        "interest": 4,
+        "units": 4
     },
     "ST2131": {
         "name": "Probability",
@@ -1635,7 +1663,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 4
+        "interest": 4,
+        "units": 4
     },
     "MA3211": {
         "name": "Complex Analysis I",
@@ -1667,7 +1696,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "MA1508E": {
         "name": "Linear Algebra For Engineering",
@@ -1755,7 +1785,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "EC4305": {
         "name": "Applied Econometrics",
@@ -1800,7 +1831,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "PC3412": {
         "name": "How Stars Work",
@@ -1822,7 +1854,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 4
+        "interest": 4,
+        "units": 4
     },
     "CN2122A": {
         "name": "Fluid Mechanics",
@@ -1848,7 +1881,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "PC3246": {
         "name": "Astrophysics I",
@@ -1874,7 +1908,8 @@
         "similarUnallowedCount": [
             "*"
         ],
-        "interest": 4
+        "interest": 4,
+        "units": 4
     },
     "CM3201": {
         "name": "Principles of Chemical Processes",
@@ -1904,7 +1939,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 4
+        "interest": 4,
+        "units": 4
     },
     "DSC3223": {
         "name": "Operations Strategy",
@@ -1918,7 +1954,6 @@
             "MA2216",
             "ST2131",
             "ST2334",
-            "EE2003",
             "ME2491"
         ],
         "prereqCount": [
@@ -1929,7 +1964,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "MA1311": {
         "name": "Matrix Algebra",
@@ -1994,7 +2030,8 @@
         "similarUnallowedCount": [
             1
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "DSE4231": {
         "name": "Topics In Data Science And The Digital Economy",
@@ -2023,7 +2060,8 @@
         "similarUnallowedCount": [
             0
         ],
-        "interest": 3
+        "interest": 3,
+        "units": 4
     },
     "ME3142": {
         "name": "Feedback Control Systems",
@@ -2059,6 +2097,629 @@
         "similarUnallowedCount": [
             "*"
         ],
+        "interest": 3,
+        "units": 4
+    },
+    "CS5421": {
+        "name": "Database Applications Design and Tuning",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            "CS3223"
+        ],
+        "prereqCount": [
+            "*"
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "CS4221"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3,
+        "units": 4
+    },
+    "MA2219": {
+        "name": "Introduction to Geometry",
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            "MA1100",
+            "MA1100T",
+            "MA1101R",
+            "MA2001",
+            "MA1508E",
+            "MA1102R",
+            "MA2002",
+            "MA1505",
+            "MA1507",
+            "MA1511",
+            "MA1513",
+            "MA1521",
+            "MA1522",
+            "CS1231",
+            "CS1231S"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3,
+        "units": 4
+    },
+    "BT4016": {
+        "name": "Risk Analysis for Financial Services",
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            "BT2101",
+            "BT2102"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3,
+        "units": 4
+    },
+    "CS4248": {
+        "name": "Natural Language Processing",
+        "units": 4,
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "CS3243",
+                "CS2109S"
+            ],
+            [
+                "EE2012A",
+                "EE2012",
+                "ST2131",
+                "MA2216",
+                "MA2116",
+                "MA2116T",
+                "ST2334",
+                "YSC2243"
+            ],
+            [
+                "MA1505",
+                "MA1507",
+                "MA1521",
+                "MA1102R",
+                "YSC1216",
+                "MA2002",
+                [
+                    "MA1511",
+                    "MA1512"
+                ]
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1,
+            [
+                1,
+                2
+            ]
+        ],
+        "next": [
+            "CS6207",
+            "CS3282",
+            "CS3281"
+        ],
+        "similarUnallowed": [
+            "CS5246"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 4
+    },
+    "DSA4199": {
+        "name": "Honours Project In Data Analytics",
+        "units": 16,
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "CS1010*"
+            ],
+            "DSA1101",
+            [
+                "MA1101R",
+                "MA2001"
+            ],
+            [
+                "MA1102R",
+                "MA2002"
+            ],
+            [
+                "CS2040*"
+            ],
+            "DSA2101",
+            "DSA2102",
+            [
+                "MA2311",
+                "MA2104"
+            ],
+            [
+                "ST2131",
+                "MA2116",
+                "MA2216",
+                "MA2116T"
+            ],
+            "ST2132",
+            "CS3244",
+            "DSA3101",
+            "DSA3102",
+            "ST3131"
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "DSA4299",
+            "DSA4299C"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
         "interest": 3
+    },
+    "CS5562": {
+        "name": "Trustworthy Machine Learning",
+        "units": 4,
+        "completed": false,
+        "sems": [
+            "Semester 1"
+        ],
+        "prereq": [
+            "CS3230",
+            [
+                "EE2012",
+                "EE2012A",
+                "MA2216",
+                "MA2116",
+                "MA2116T",
+                "ST2131",
+                "ST2334"
+            ],
+            "CS3244"
+        ],
+        "prereqCount": [
+            "*",
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "CS6283"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 4
+    },
+    "MA3259": {
+        "name": "Mathematical Models in Genomics",
+        "units": 4,
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            "MA2216",
+            "MA3233",
+            "MA3501",
+            "ST2131",
+            "ST2334",
+            "LSM2241"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "MA5264"
+        ],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 4
+    },
+    "DSA4288": {
+        "name": "Honours Project in Data Science and Analytics",
+        "units": 8,
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [
+            "DSA1101",
+            [
+                "CS2040*"
+            ],
+            "DSA2101",
+            "DSA2102",
+            "MA2001",
+            "MA2002",
+            [
+                "MA2311",
+                "MA2104"
+            ],
+            [
+                "ST2131",
+                "MA2116",
+                "MA2116T"
+            ],
+            "ST2132",
+            "CS3244",
+            "DSA3101",
+            "DSA3102",
+            "ST3131"
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1,
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "DSA4288M",
+            "DSA4288S"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "CS3245": {
+        "name": "Information Retrieval",
+        "units": 4,
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            "CS2040",
+            "CS2040S",
+            "CS2040C",
+            "CS2040DE",
+            "CS2040HS"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [
+            "CS4241",
+            "CS6242",
+            "CS4242",
+            "CS3282",
+            "CS3281"
+        ],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 4
+    },
+    "BT4221": {
+        "name": "Advanced Analytics with Big Data Technologies",
+        "units": 4,
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                [
+                    "BT2101",
+                    "BT2102"
+                ],
+                [
+                    "CS1010X",
+                    "CS1101S",
+                    "CS1010",
+                    "CS1010S",
+                    "CS1010J",
+                    "CS1010E",
+                    "CS1010A",
+                    "CS1010HS",
+                    "UTC2851"
+                ]
+            ],
+            [
+                "DAO2702",
+                "DBA3803",
+                "IT3010"
+            ]
+        ],
+        "prereqCount": [
+            1,
+            [
+                "*",
+                2,
+                1
+            ],
+            3
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "CS4225",
+            "CS5245"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "CS1010A": {
+        "name": "Programming Methodology",
+        "units": 4,
+        "completed": false,
+        "sems": [
+            "Semester 1",
+            "Semester 2"
+        ],
+        "prereq": [],
+        "prereqCount": [
+            0
+        ],
+        "next": [
+            "CS2100DE",
+            "EE2213",
+            "CS2030DE",
+            "CS2040DE",
+            "EE3703",
+            "BT2102",
+            "BT3017",
+            "CS2030",
+            "IS3221",
+            "IS4241",
+            "CS2030S",
+            "CS2040",
+            "CS2100",
+            "CS2107",
+            "CS3237",
+            "BT4212",
+            "BT4222",
+            "IS2102",
+            "IS2109",
+            "IT2001",
+            "IT2002",
+            "IT2010",
+            "IT3011",
+            "CP2106",
+            "CP2107",
+            "CS2040S",
+            "CS2040C",
+            "BT4221",
+            "QF3101",
+            "QF2103",
+            "DSA3102",
+            "CG2028"
+        ],
+        "similarUnallowed": [
+            "CS1010",
+            "CS1010E",
+            "CS1010HS",
+            "CS1010J",
+            "CS1010S",
+            "CS1010X",
+            "CS1101S",
+            "UTC2851"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "IS3106": {
+        "name": "Enterprise Systems Interface Design and Development",
+        "units": 4,
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            "IS2103"
+        ],
+        "prereqCount": [
+            "*"
+        ],
+        "next": [
+            "IS4248",
+            "IS5452",
+            "IS4262",
+            "IS4152",
+            "IS4103",
+            "CP3880",
+            "IS4242",
+            "IS5451",
+            "IS4236",
+            "IS4246",
+            "IS4261",
+            "IS4151",
+            "IS4010"
+        ],
+        "similarUnallowed": [
+            "CP3101B",
+            "CS3226"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 3
+    },
+    "CS5430": {
+        "name": "Foundations of Modern Cryptography",
+        "units": 4,
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            [
+                "CS1231",
+                "CS1231S",
+                "MA1100",
+                "MA1100T"
+            ],
+            "CS3230",
+            [
+                "ST2334",
+                "ST2131",
+                "MA2216",
+                "MA2116",
+                "MA2116T"
+            ]
+        ],
+        "prereqCount": [
+            "*",
+            1,
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "CS4230"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 4
+    },
+    "MA4269": {
+        "name": "Mathematical Finance II",
+        "units": 4,
+        "completed": false,
+        "sems": [],
+        "prereq": [
+            [
+                "MA1104",
+                "MA1506",
+                "MA1507",
+                "MA1511",
+                "MA2104",
+                "MA2311"
+            ],
+            "MA3269"
+        ],
+        "prereqCount": [
+            "*",
+            1
+        ],
+        "next": [
+            "QF5210",
+            "MA5245",
+            "MA5248",
+            "QF5210A"
+        ],
+        "similarUnallowed": [
+            "MA3245",
+            "MA4257"
+        ],
+        "similarUnallowedCount": [
+            "*"
+        ],
+        "interest": 3
+    },
+    "IS4151": {
+        "name": "AIoT Solutions and Development",
+        "units": 4,
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            "IS2108",
+            [
+                [
+                    "IS2103",
+                    "IS3106"
+                ],
+                [
+                    "BT1101",
+                    "BT1101HS"
+                ]
+            ]
+        ],
+        "prereqCount": [
+            1,
+            [
+                "*",
+                2,
+                1
+            ]
+        ],
+        "next": [],
+        "similarUnallowed": [
+            "IS5451"
+        ],
+        "similarUnallowedCount": [
+            1
+        ],
+        "interest": 4
+    },
+    "QF5210A": {
+        "name": "Financial Time Series: Theory and Computation",
+        "units": 4,
+        "completed": false,
+        "sems": [],
+        "prereq": [],
+        "prereqCount": [
+            0
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 3
+    },
+    "MA4268": {
+        "name": "Mathematics for Visual Data Processing",
+        "units": 4,
+        "completed": false,
+        "sems": [
+            "Semester 2"
+        ],
+        "prereq": [
+            "DSA2102",
+            "MA2213"
+        ],
+        "prereqCount": [
+            1
+        ],
+        "next": [],
+        "similarUnallowed": [],
+        "similarUnallowedCount": [
+            0
+        ],
+        "interest": 4
     }
 }

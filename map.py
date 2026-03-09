@@ -1,8 +1,20 @@
 import json
 import webbrowser
+import copy
 
 items = open("item.json","r")
 items = json.load(items)
+
+detailsEntry = {"name":str,
+            "units":int,
+            "completed":bool,
+            "sems":[str],
+            "prereq":[str],
+            "prereqCount":{"t":[str],"ref":"var_details['prereq']"},
+            "next":[str],
+            "similarUnallowed":[str],
+            "similarUnallowedCount":[str],
+            "interest":{"t":int,"ref":["Not interested","Mid","Interested"]}}
 
 def cmdGet():
     cmd = input()
@@ -53,7 +65,18 @@ def itemFill(val,info=True):
     
     if type(val) == list:
         val = val[0]
-        return json.loads(input(info))
+        i = input(info)
+        try:
+            return json.loads(i)
+        except:
+            l = []
+            while True:
+                l.append(i)
+                i = input()
+                if i == "//":
+                    break
+        
+            return l
     
     return input(info)
 
@@ -91,15 +114,7 @@ while True:
             print(course)
             webbrowser.open(f"https://nusmods.com/courses/{course}")
 
-            details = {"name":str,
-                        "completed":bool,
-                        "sems":[str],
-                        "prereq":[str],
-                        "prereqCount":{"t":[str],"ref":"var_details['prereq']"},
-                        "next":[str],
-                        "similarUnallowed":[str],
-                        "similarUnallowedCount":[str],
-                        "interest":{"t":int,"ref":["Not interested","Mid","Interested"]}}
+            details = copy.deepcopy(detailsEntry)
         
 
             if course in items.keys():
@@ -112,6 +127,29 @@ while True:
             
             items[course] = details
 
+            file = open("item.json","w")
+            json.dump(items, file, indent=4)
+            file.close()
+
+    elif cmd['main'] == "modify":
+        modifiedPrereq = list(cmd["descr"].keys())
+        i = []
+        
+        if "a" in modifiedPrereq:
+            modifiedPrereq.remove("a")
+
+            i = items.keys()
+        
+        if len(i) == 0:
+            i.append(input("Enter course code: "))
+        
+        for course in i:
+            print(course)
+            webbrowser.open(f"https://nusmods.com/courses/{course}")
+
+            for field in modifiedPrereq:
+                    items[course][field] = itemFill(detailsEntry[field], info=f"Enter {field}: ")
+            
             file = open("item.json","w")
             json.dump(items, file, indent=4)
             file.close()
