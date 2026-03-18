@@ -1,7 +1,7 @@
 import json
 import webbrowser
 
-items = open("basics.json","r")
+items = open("Basics.json","r")
 items = json.load(items)
 
 def cmdGet():
@@ -53,7 +53,13 @@ def itemFill(val,info=True):
     
     if type(val) == list:
         val = val[0]
-        return json.loads(input(info))
+        while True:
+            try:
+                return json.loads(input(info))
+            except:
+                ""
+            else:
+                break
     
     return input(info)
 
@@ -84,6 +90,13 @@ while True:
             courses = missingRecords
             print(f"Found {len(courses)} courses")
 
+        if "multi" in cmd['descr'].keys():
+            while True:
+                i = input()
+                if i == "//":
+                    break
+                courses.append(i)
+            
         if len(courses) == 0:
             courses.append(input("Enter course code: "))
         
@@ -92,14 +105,12 @@ while True:
             webbrowser.open(f"https://nusmods.com/courses/{course}")
 
             details = {"name":str,
-                        "completed":bool,
-                        "sems":[str],
+                       "details":[str],
                         "prereq":[str],
                         "prereqCount":{"t":[str],"ref":"var_details['prereq']"},
                         "next":[str],
                         "similarUnallowed":[str],
-                        "similarUnallowedCount":[str],
-                        "interest":{"t":int,"ref":["Not interested","Mid","Interested"]}}
+                        "similarUnallowedCount":[str]}
         
 
             if course in items.keys():

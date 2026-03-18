@@ -1,0 +1,30 @@
+{
+    "01.018": {
+        "name": "Design Thinking Project I",
+        "project-based": true,
+        "credits": 12,
+        "type": "Freshmore Core",
+        "department": "SMT",
+        "sems": [
+            1
+        ],
+        "prereq": [],
+        "prereqCount": [
+            0
+        ],
+        "professor": [
+            "Sumbul Khan (SMT)"
+        ],
+        "url": "https://www.sutd.edu.sg/course/01-018-design-thinking-project-i/",
+        "resource": "\"\"",
+        "materials": [
+            "Hands-On-Projects with theme",
+            "Healthcare",
+            "Cities",
+            "Aviation",
+            "Data Science",
+            "Guided Project",
+            "Seminars"
+        ]
+    }
+}
