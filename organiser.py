@@ -28,4 +28,4 @@ for course in courseInfo:
     "similarUnallowedCount":[0]}
     
     #check for prereqs and update based on my preferences
-    ""
+    

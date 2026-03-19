@@ -8,7 +8,7 @@ timeDelay = random.randint(100,300)/100
 timer = time.time()
 count = 4
 countLimit = 10
-timeMax = 60
+
 
 class accessState:
     allItems = False
@@ -18,7 +18,6 @@ def rateLimit():
     global timer
     global count
     global countLimit 
-    global timeMax
 
     if time.time() - timer < timeDelay:
         time.sleep(timeDelay - (time.time() - timer))
@@ -28,8 +27,7 @@ def rateLimit():
 
     if count > countLimit:
         print("System cooling down....!")
-        time.sleep(timeMax)
-        timeMax += 10
+        time.sleep(60)
         
         count = 0
     else:
